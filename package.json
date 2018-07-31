@@ -1,0 +1,20 @@
+{
+  "name": "inline-test-js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node bin/sayhi.js Luke Skywalker",
+    "test": "cross-env NODE_ENV=test tape src/**/*.js test/**/*.js"
+  },
+  "bin": {
+    "sayhi": "bin/sayhi.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.9.1"
+  }
+}
